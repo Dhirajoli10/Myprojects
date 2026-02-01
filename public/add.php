@@ -13,7 +13,7 @@ $price = "";
 $stock = "";
 
 if (is_post()) {
-    csrf_check(); // CSRF CHECK
+    csrf_check(); 
 
     $product_name = trim($_POST["product_name"] ?? "");
     $supplier_id  = trim($_POST["supplier_id"] ?? "");

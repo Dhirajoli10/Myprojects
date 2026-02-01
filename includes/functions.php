@@ -55,7 +55,7 @@ function require_admin(): void {
 }
 
 /* =========================
-   CSRF PROTECTION (NEW)
+   CSRF PROTECTION 
    ========================= */
 
 function csrf_token(): string {
