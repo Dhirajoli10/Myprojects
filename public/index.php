@@ -25,7 +25,7 @@ $isAdmin = ((current_user()["role"] ?? "") === "admin");
         <th>ID</th>
         <th>Product</th>
         <th>Supplier</th>
-        <th>Price</th>
+        <th>Price NPR(Rs)</th>
         <th>Stock</th>
         <th>Status</th>
         <?php if ($isAdmin): ?>

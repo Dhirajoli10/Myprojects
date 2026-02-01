@@ -75,7 +75,7 @@ if (is_post()) {
     </div>
 
     <div class="form-row">
-      <label>Price (₹)</label>
+      <label>Price (Rs)</label>
       <input name="price" type="number" step="0.01" min="0" value="<?= e($price) ?>" required>
     </div>
 

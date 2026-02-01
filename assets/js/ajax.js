@@ -15,10 +15,10 @@
   }
 
   function formatPrice(p) {
-    // simple currency formatting (NPR)
+    // simple currency formatting (Rs)
     const n = Number(p);
-    if (Number.isNaN(n)) return "NPR0.00";
-    return "NPR" + n.toFixed(2);
+    if (Number.isNaN(n)) return "Rs0.00";
+    return "Rs" + n.toFixed(2);
   }
 
   function renderRows(items) {
