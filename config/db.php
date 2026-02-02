@@ -4,9 +4,9 @@
 declare(strict_types=1);
 
 $DB_HOST = "localhost";
-$DB_USER = "root";
-$DB_PASS = "";     
-$DB_NAME = "inventory_db";
+$DB_USER = "np03cs4a240184";
+$DB_PASS = "Rpp1oz3Tpa";     
+$DB_NAME = "np03cs4a240184";
 
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
