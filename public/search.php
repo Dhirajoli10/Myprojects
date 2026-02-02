@@ -122,7 +122,7 @@ $results = $stmt->get_result();
           <td><?= (int)$r["product_id"] ?></td>
           <td><?= e($r["product_name"]) ?></td>
           <td><?= e($r["supplier_name"]) ?></td>
-          <td>₹<?= number_format((float)$r["price"], 2) ?></td>
+          <td>Rs<?= number_format((float)$r["price"], 2) ?></td>
           <td><?= (int)$r["stock"] ?></td>
         </tr>
       <?php endwhile; ?>
