@@ -15,6 +15,10 @@
 - Search by supplier, price, or stock level
 - Ajax: Live stock updates
 
+**KNOWNS ISSUES**
+- UI need to be more flexible and mobile friendly
+- Need more admin to be added
+- Need to focus in backend especially in error handling 
 
 
 
