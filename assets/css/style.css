@@ -1,6 +1,6 @@
-/* =========================
+/* 
    Base Layout
-========================= */
+*/
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -13,9 +13,9 @@ body {
   padding: 16px;
 }
 
-/* =========================
+/* 
    Top Bar
-========================= */
+*/
 .topbar {
   background: #1f2a44;
   color: white;
@@ -37,9 +37,9 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* =========================
+/* 
    Cards
-========================= */
+ */
 .card {
   background: white;
   padding: 14px;
@@ -48,9 +48,9 @@ nav a:hover {
   margin: 12px 0;
 }
 
-/* =========================
+/* 
    Table
-========================= */
+ */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -68,9 +68,9 @@ td:nth-child(5) {
   text-align: center;
 }
 
-/* =========================
+/* 
    Status Badges
-========================= */
+ */
 .badge {
   display: inline-block;
   padding: 4px 10px;
@@ -89,9 +89,9 @@ td:nth-child(5) {
   color: #146b2e;
 }
 
-/* =========================
+/* 
    Flash Messages
-========================= */
+*/
 .flash {
   background: #e7f0ff;
   padding: 10px;
@@ -99,9 +99,9 @@ td:nth-child(5) {
   margin: 10px 0;
 }
 
-/* =========================
+/* 
    Buttons
-========================= */
+ */
 .btn {
   display: inline-block;
   padding: 8px 14px;
@@ -128,9 +128,9 @@ td:nth-child(5) {
   margin-right: 8px;
 }
 
-/* =========================
+/* 
    Forms
-========================= */
+ */
 .form-row {
   margin-bottom: 10px;
 }
@@ -143,9 +143,9 @@ select {
   border-radius: 8px;
 }
 
-/* =========================
-   INLINE STOCK EDITOR (FINAL)
-========================= */
+/* 
+   INLINE STOCK EDITOR 
+ */
 .stock-input {
   width: 48px;
   padding: 2px 4px;

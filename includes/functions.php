@@ -54,9 +54,8 @@ function require_admin(): void {
     }
 }
 
-/* =========================
-   CSRF PROTECTION 
-   ========================= */
+/*  CSRF PROTECTION 
+  */
 
 function csrf_token(): string {
     // Generate token once per session

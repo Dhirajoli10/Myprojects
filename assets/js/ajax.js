@@ -20,7 +20,6 @@
     return "Rs" + n.toFixed(2);
   }
 
-  // ✅ FIXED: EXACTLY 7 <td> TO MATCH TABLE HEADER
   function renderRows(items) {
     let html = "";
 
@@ -96,7 +95,7 @@
   setInterval(refreshStock, 3000);
 })();
 
-// ✅ Stock update handler
+//  Stock update handler
 document.addEventListener("change", async function (e) {
   if (!e.target.classList.contains("stock-input")) return;
 
